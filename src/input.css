@@ -1,11 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+
 @font-face {
   font-family: "PROXIMA NOVA";
   src: url("../fonts/Fontspring-DEMO-proximanovacond-medium.otf");
   src: url("../fonts/Fontspring-DEMO-proximanova-black.otf");
+}
+
+.btn{
+  transition: transform .2s ease-in
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  opacity: 90%;
 }
 
 /* width */
